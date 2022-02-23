@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mausam app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cap">Click to See Weather of your current location or search location</div>
+    <div id="menu">
+       
+        
+        <img src="icons/gps.svg" alt="" srcset="" id="myloc">
+        <img src="icons/map1.svg" alt="" srcset="" id="anyloc">
+    </div>
+    <form id="search-form">
+        <input type="search" placeholder="Enter city name" id="search-input" required autocomplete="off">
+        <br>
+        <br>
+        <button id="search-button">search</button>
+    </form>
+    
+    <main id="app-container">
+        <div id="location">
+            <p>------</p>
+        </div>
+        <div id="temp">
+            <img src="icons/sun.svg" alt="" id="temp-icon">
+            <p><span id="temp-value">--------</span><span id="temp-unit">&#176c</span></p>
+        </div>
+        <div id="climate">
+            <p>-----------</p>
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
